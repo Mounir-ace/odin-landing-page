@@ -1,1 +1,1 @@
-# odin-landing-page
+Landing page project, simple html and css home page using the skills learned from TOP foundations lessons.

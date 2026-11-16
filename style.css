@@ -42,15 +42,22 @@ header .container{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1080px;
     margin: 0;
+}
+
+.hero .container, .cto .container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1080px;
 }
 
 .container {
     display: flex;
     justify-content: center;
     width: 100%;
-    max-width: 1200px;
+    max-width: 900px;
     padding: 12px 48px;
     margin: 48px;
 }
@@ -94,7 +101,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 1440px;
+    max-width: 900px;
     padding: 12px 48px;
 }
 
@@ -106,15 +113,28 @@ section{
 
 .info-items {
     display: flex;
+    justify-content: space-around;
     width: 90%;
 }
 
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.item-img {
+    border: 3px #3882F6 solid;
+    border-radius: 12px;
+    width: 150px;
+    height: 150px;
+}
+.item-txt{
+    text-align: center;
+}
+
 .quote {
-    background-color: #E5E7EB;
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 300;
-    font-style: italic;
+    background-color: #E5E7EB;    
 }
 
 .quote-container {
@@ -125,8 +145,25 @@ section{
     align-items: center;
 }
 
+.quote-p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-p p {
+    margin: 0;
+}
+
 .author {
+    font-size:x-large;
     align-self: flex-end;
+    margin: 0 48px;
+}
+
+.author p {
+    margin: 0px;
 }
 
 .cto-container {
